@@ -24,7 +24,7 @@ def my_sum(list_of_numbers):
     result = 0
     for x in list_of_numbers:
         result += x
-    return result, print(result)
+    return result
 
 
 def shortener(string):
@@ -70,6 +70,6 @@ def compare_ends(words):
     for x in words:
         if len(x) > 2 and x[0] == x[-1]:
             result += 1
-    return result, print(result)
+    return result
 
 
