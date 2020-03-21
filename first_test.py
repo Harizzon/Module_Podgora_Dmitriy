@@ -8,7 +8,7 @@ def spam(number):
     повторяется столько раз, сколько параметров передано. Она уже написана,
     но не работает. Любым способом заставьте ее работать.
     '''
-    return print('bulochka' * number)
+    return 'bulochka' * number
 
 
 def my_sum(list_of_numbers):
