@@ -44,17 +44,14 @@ def shortener(string):
 
     """
     x = string.split(" ")
-
     res = []
     for y in x:
         if len(y) > 6:
             res.append(y[0:6] + "*")
         else:
             res.append(y)
-    result = ""
-    for x in res:
-        result += f"{x} "
-    return result, print(result)
+    result = " ".join(res)
+    return result
 
 
 def compare_ends(words):
